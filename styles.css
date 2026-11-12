@@ -3,3 +3,14 @@
 .brand-cluster{display:flex;align-items:center;gap:10px;min-width:max-content}.logo-switcher{position:relative;z-index:30}.logo-switcher summary{list-style:none;width:48px;height:48px;border-radius:50%;cursor:pointer;display:grid;place-items:center;transition:transform .2s,box-shadow .2s}.logo-switcher summary::-webkit-details-marker{display:none}.logo-switcher summary:hover{transform:translateY(-1px);box-shadow:0 0 22px #9fcfff22}.logo-switcher summary img,.about-logo{width:100%;height:100%;display:block;object-fit:cover;border-radius:50%}.logo-menu{position:absolute;left:0;top:58px;width:342px;padding:16px;background:linear-gradient(145deg,rgba(10,24,39,.98),rgba(9,18,33,.98));border:1px solid #7aa0bb44;border-radius:16px;box-shadow:0 24px 70px #000a;backdrop-filter:blur(18px)}.logo-menu-title{display:flex;align-items:baseline;justify-content:space-between;padding:0 2px 12px;color:#d6e3ec;font-size:12px}.logo-menu-title small{font-size:8px;letter-spacing:.6px;color:#718998}.logo-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;max-height:370px;overflow:auto;padding-right:2px}.logo-option{position:relative;display:grid;grid-template-columns:38px 1fr 14px;align-items:center;gap:9px;padding:7px;text-align:left;border:1px solid transparent;border-radius:10px;color:#93a9b6;background:none;font-size:10px;transition:background .2s,border-color .2s,color .2s}.logo-option:hover{background:#8fbfd00e;color:#d5e6ed}.logo-option.selected{background:#84b8ca13;border-color:#90c8db44;color:#d9edf4}.logo-option img{width:38px;height:38px;border-radius:50%;object-fit:cover}.logo-option b{color:#a9d8e5}.about-logo{width:48px;height:48px;flex:none}
 @media(max-width:760px){.brand-cluster{gap:7px}.logo-switcher summary{width:38px;height:38px}.logo-menu{width:min(326px,calc(100vw - 40px));top:48px}.brand{font-size:18px}.header nav{margin-left:auto}}
 @media(max-width:520px){.brand small{display:none}.logo-menu{position:fixed;left:20px;top:70px}.logo-option{grid-template-columns:34px 1fr 12px;padding:6px}.logo-option img{width:34px;height:34px}}
+
+/* Complete black hole scene shared with the Sites production version. */
+body{background:#030810}
+.atmosphere{
+  background-color:#030810;
+  background-image:linear-gradient(90deg,rgba(3,7,14,.5) 0%,rgba(3,7,14,.2) 34%,rgba(3,7,14,.05) 70%),linear-gradient(180deg,rgba(3,7,14,.08),rgba(3,7,14,.22)),url('./black-hole-complete-v6.png');
+  background-position:center,center,center;
+  background-size:cover,cover,cover;
+  background-repeat:no-repeat;
+}
+.blackhole{display:none}
